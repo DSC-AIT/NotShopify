@@ -1,6 +1,6 @@
 ### How to Contribute
 
-If the HTML, CSS and Havascript files haven't already been made, create them and start working on the website right away. When you think you have coded a good amount make a Pull Request. We will analyse all PRs and decide whether to mark them hacktober-accepted or merge them.
+If the HTML, CSS and Javascript files haven't already been made, create them and start working on the website right away. When you think you have coded a good amount make a Pull Request. We will analyse all PRs and decide whether to mark them hacktober-accepted or merge them.
 
 Avoid making pull requests that do not add or modify the code in any way. Such pull requests will be marked as spam or invalid and will not count towards the Hacktoberfest contributions.
 
