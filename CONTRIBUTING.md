@@ -20,3 +20,5 @@ If you need more details to understand this, feel free to reach out to [@Electro
 **-** No explicit content
 
 **-** Any images should be optimized for web
+
+**-** Try not to get sued by Sopify by accidentally using their name where you shouldn't or by NOT using their name where you SHOULD 😂
