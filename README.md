@@ -3,7 +3,7 @@
 
 Published at [dsc-ait.github.io/NotShopify/](https://dsc-ait.github.io/NotShopify/)
 
-This is a website that is supposed to be a mockup of the original shopify landing page.
+This is a website that is supposed to be a mockup of the original shopify landing page. [Here](https://electromorphous.github.io/NotShopify) is an example of what you are trying to make.
 
 If this is your first time contributing to open-source and you know the basics of HTML, CSS and Javascript then this is the place for you!
 
