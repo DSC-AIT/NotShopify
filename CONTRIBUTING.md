@@ -17,10 +17,10 @@ If you need more details to understand this, feel free to reach out to [@Electro
 
 ### RULES:
 
-**-** No explicit content
+**-** No explicit content.
 
 **-** Never make a PR on the main branch. Such PRs will be marked invalid.
 
-**-** Any images should be optimized for web
+**-** Any images should be optimized for web.
 
-**-** Try not to get sued by Sopify by accidentally using their name where you shouldn't or by NOT using their name where you SHOULD 😂
+**-** Try not to get sued by Shopify by accidentally using their name where you shouldn't or by NOT using their name where you SHOULD 😂
