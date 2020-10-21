@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+/*=========================================
+===== HEADER =======================*/
+header{
+    text-align: center;
+    padding-top: 2.5vh;
+    background-color:#007c5d;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 37px;
+}
+
+/*=========================================
+===== TITLE & ICON =======================*/
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title i{
+    padding-right: 10px;
+    margin-bottom: 40px;
+}
+.title h1{
+    max-width: 70%;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+/*=========================================
+===== TAGLINE =======================*/
+.tagline{
+    margin: auto;
+    max-width: 85%;
+}
+.tagline h2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.tagline h3{
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+/*=========================================
+===== CONTACT =======================*/
+.contact-info{
+    margin: 20px 0;
+}
+.contact-info input{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 55%;
+    height: 45px;
+    margin-right: 18px;
+    padding-left: 20px;
+}
+.contact-info button{
+    width: 25%;
+    height: 45px;
+    background-color: rgb(41, 41, 41);
+    border: 1px solid rgb(41, 41, 41);
+    border-radius: 5px;
+    color: white;
+}
+
+
+/*=========================================
+===== TERMS =======================*/
+.terms{
+    width: 80%;
+    margin: 20px auto;
+}
+.terms p{
+    padding: 20px 0;
+    font-weight: 100;
+    font-size: 10px;
+    text-align: center;
+}
+
+/*=========================================
+===== BANNER IMAGE =======================*/
+.banner-img img{
+    width: 62%;
+}
+
+
+/*=========================================
+===== FEATURES =======================*/
+.features{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-around;
+    width: 85%;
+}
+.feature h3{
+    line-height: 1;
+    padding-bottom: 15px;
+}
+.feature p{
+    line-height: 1.7;
+    color: gray;
+    padding-bottom: 20px;
+}
+.feature i{
+    color: #007c5d;
+    font-size: 55px;
+    padding-bottom: 15px;
+}
+
+
+/*=========================================
+===== hr =======================*/
+hr{
+    border: 1px solid #ddd;
+    border-bottom: none;
+    width: 90%;
+    margin: 40px auto;
+}
+
+
+/*=========================================
+===== PARTNERS =======================*/
+.partners{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    max-width: 80%;    
+}
+.brands{
+    margin: auto 25%;
+    width: 100%;
+}
+.brands img{
+    margin: 15px 30px;
+    width: 50%;
+    display: inline-block;
+}
+
+/*=========================================
+===== QUOTE =======================*/
+.quote{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+.quote p{
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 40px 0;
+}
+.quote h3{
+    color: rgb(95, 94, 94);
+    font-size: 12px;
+    padding-bottom: 40px
+}
+
+/*=========================================
+===== Trail =======================*/
+.trail button{
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
+    height: 45px;
+    background-color: #007c5d;
+    border: 1px solid #007c5d;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+
+/*=========================================
+===== Footer =======================*/
+footer .quick-links{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .quick-links ul{
+    list-style: none;
+}
+footer .quick-links li{
+    padding: 10px 0;
+}
+footer .quick-links a{
+    color: #007c5d;
+}
+
+
+
+/*=========================================
+===== Media Queries =======================*/
+@media( min-width:400px){
+    .brands{
+        margin: auto;
+        width: 100%;
+    }
+    .brands img{
+        margin: 15px 30px;
+        width: 30%;
+        display: inline-block;
+    }
+}
+
+@media( min-width:750px ){
+    .features{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        justify-content: space-around;
+        width: 85%;
+    }
+    .feature{
+        padding-left: 20px;
+        width: 30%;
+    }
+    .brands{
+        margin: auto;
+        width: 100%;
+    }
+    .brands img{
+        margin: 15px 30px;
+        width: 15%;
+        display: inline-block;
+    }
+    footer .quick-links{
+        width: 30%;
+        margin-left: 70%;
+    }
+    footer .quick-links ul{
+        display: flex;
+        margin: auto;
+        flex-direction: row;
+    }
+    footer .quick-links li{
+        align-items: flex-end;
+    }
+    footer .quick-links a{
+        padding-left: 20px
+    }
+}
+
+@media(min-width:820px){
+    .brands{
+        margin: auto;
+        width: 100%;
+    }
+    .brands img{
+        margin: 15px 20px;
+        width: 8%;
+        display: inline-block;
+    }
+    .feature{
+        padding-left: 20px;
+        width: 25%;
+    }
+}
+
+
+
+
+
+
+
+
+
